@@ -32,8 +32,8 @@ layers:
   - ;
   - N
   - M
-  - ','
-  - .
+  - '&mkp MB1'
+  - '&mkp MB2'
   - /
   - LCTRL
   - LEFT WIN
