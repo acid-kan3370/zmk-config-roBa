@@ -45,6 +45,13 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
+
+        PSW_OKUWA: PSW_OKUWA {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(O) &kp K &kp W &kp A &kp D &kp M &kp I &kp N &kp N0 &kp N0 &kp N9 &kp N8>;
+            label = "PSW_OKUWA";
+        };
     };
 
     behaviors {
@@ -83,19 +90,19 @@
 
         NUM {
             bindings = <
-&kp ESCAPE            &kp N7        &kp N8        &kp N9        &kp EQUAL                                               &kp N7        &kp N8        &kp N9        &kp SLASH   &kp ASTERISK
-&kp TAB               &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT    &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp MINUS
-&mt LEFT_SHIFT SLASH  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp EQUAL                    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &kp EQUAL
-&trans                &kp N0        &kp PERIOD    &kp MINUS     &kp SPACE  &kp ENTER                    &trans          &trans                                                &kp PLUS
+&kp ESCAPE    &kp N7        &kp N8        &kp N9        &kp EQUAL                                               &kp N7        &kp N8        &kp N9        &kp SLASH   &kp ASTERISK
+&kp TAB       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT    &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp MINUS
+&kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS   &kp EQUAL                    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &kp EQUAL
+&kp ASTERISK  &kp N0        &kp PERIOD    &kp MINUS     &kp SPACE  &kp ENTER                    &trans          &trans                                                &kp PLUS
             >;
         };
 
         ALLOW-FUNC {
             bindings = <
-&kp ESCAPE    &kp LC(LS(TAB))  &kp UP_ARROW  &kp LC(TAB)    &kp LEFT_ALT                          &kp MINUS   &trans  &kp PAGE_UP     &kp PRINTSCREEN  &kp PAGE_DOWN
-&kp TAB       &kp LG(LS(S))    &kp K_PREV    &kp K_FORWARD  &kp LEFT_SHIFT    &trans      &trans  &kp COMMA   &trans  &kp HOME        &kp UP_ARROW     &kp END
-&kp CAPSLOCK  &kp K_CUT        &kp K_COPY    &kp K_PASTE    &kp LEFT_CONTROL  &trans      &trans  &kp PERIOD  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
-&trans        &trans           &trans        &trans         &trans            &trans      &trans  &trans                                               &trans
+&kp ESCAPE    &kp GRAVE      &PSW_OKUWA  &kp LC(TAB)    &kp LEFT_ALT                          &kp MINUS   &kp INSERT     &kp HOME        &kp PRINTSCREEN  &kp END
+&kp TAB       &kp LG(LS(S))  &kp K_PREV  &kp K_FORWARD  &kp LEFT_SHIFT    &trans      &trans  &kp COMMA   &kp SEMICOLON  &kp PAGE_UP     &kp UP_ARROW     &kp PAGE_DOWN
+&kp CAPSLOCK  &kp K_CUT      &kp K_COPY  &kp K_PASTE    &kp LEFT_CONTROL  &trans      &trans  &kp PERIOD  &kp COLON      &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
+&trans        &trans         &trans      &to 0          &trans            &trans      &trans  &trans                                                      &kp LC(A)
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
