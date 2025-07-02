@@ -39,7 +39,17 @@
 
         zenkaku-hankaku {
             bindings = <&kp GRAVE>;
+            key-positions = <1 2>;
+        };
+
+        esc {
+            bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
+        };
+
+        capslock {
+            bindings = <&kp CAPSLOCK>;
+            key-positions = <22 23>;
         };
     };
 
