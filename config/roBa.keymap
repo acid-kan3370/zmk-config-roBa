@@ -103,10 +103,10 @@
 
         FUNCTION {
             bindings = <
-&kp F1                &kp F2        &kp F3         &kp F4             &kp F5                                       &kp F6            &kp F7            &kp F8                &kp F9                 &kp F10
-&kp EXCLAMATION       &kp QUESTION  &kp DOLLAR     &kp DOUBLE_QUOTES  &kp SQT         &trans            &kp LANG9  &kp LS(NUMBER_9)  &kp LS(NUMBER_0)  &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp AT
-&kp NON_US_BACKSLASH  &kp PERCENT   &kp HASH       &kp PERIOD         &kp SEMICOLON   &trans            &trans     &kp LESS_THAN     &kp GREATER_THAN  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp F11
-&kp PIPE              &kp EQUAL     &kp AMPERSAND  &kp COMMA          &kp UNDERSCORE  &kp ASTERISK      &trans     &trans                                                                           &kp F12
+&kp F1                &kp F2        &kp F3         &kp F4             &kp F5                                       &kp F6         &kp F7            &kp F8             &kp F9                 &kp F10
+&kp EXCLAMATION       &kp QUESTION  &kp DOLLAR     &kp DOUBLE_QUOTES  &kp SQT         &trans            &kp LANG9  &kp LS(N8)     &kp LS(N9)        &kp RBRC           &kp LS(RIGHT_BRACKET)  &kp LEFT_BRACKET
+&kp NON_US_BACKSLASH  &kp PERCENT   &kp HASH       &kp PERIOD         &kp SEMICOLON   &trans            &trans     &kp LESS_THAN  &kp GREATER_THAN  &kp RIGHT_BRACKET  &kp RIGHT_BRACKET      &kp F11
+&kp PIPE              &kp EQUAL     &kp AMPERSAND  &kp COMMA          &kp UNDERSCORE  &kp ASTERISK      &trans     &trans                                                                     &kp F12
             >;
         };
 
