@@ -36,6 +36,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        zenkaku-hankaku {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
