@@ -72,7 +72,7 @@
             bindings = <
 &kp Q             &kp W         &kp E               &kp R               &kp T                                                          &lt_to_layer_0 1 Y  &lt_to_layer_0 2 U  &lt 3 I             &kp O     &kp P
 &kp A             &kp S         &lt_to_layer_0 3 D  &lt_to_layer_0 2 F  &lt_to_layer_0 1 G  &kp LS(LG(S))               &kp MINUS      &lt_to_layer_0 1 H  &lt_to_layer_0 2 J  &lt_to_layer_0 3 K  &kp L     &kp PAGE_UP
-&mt LEFT_SHIFT Z  &kp X         &lt_to_layer_0 3 C  &lt_to_layer_0 3 G  &lt_to_layer_0 1 B  &kp COLON                   &kp SEMICOLON  &lt_to_layer_0 1 N  &lt_to_layer_0 2 M  &mkp MB1            &mkp MB2  &mkp MB3
+&mt LEFT_SHIFT Z  &kp X         &lt_to_layer_0 3 C  &lt_to_layer_0 3 V  &lt_to_layer_0 1 B  &kp COLON                   &kp SEMICOLON  &lt_to_layer_0 1 N  &lt_to_layer_0 2 M  &mkp MB1            &mkp MB2  &mkp MB3
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT        &to 3               &lt 2 SPACE         &lt_to_layer_0 3 ENTER      &kp BACKSPACE  &lt 1 DELETE                                                          &kp PAGE_DOWN
             >;
 
