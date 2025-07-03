@@ -103,19 +103,19 @@
 
         FUNCTION {
             bindings = <
-&kp F1           &kp F2          &kp F3            &kp F4       &kp F5                                                     &kp F6         &kp F7                &kp F8             &kp F9         &kp F10
-&kp EXCLAMATION  &kp QUESTION    &kp DOLLAR        &kp AT_SIGN  &kp AMPERSAND            &trans                 &kp LANG9  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RBRC           &kp PIPE       &kp LEFT_BRACKET
-&kp INT_YEN      &kp PERCENT     &kp HASH          &kp PERIOD   &kp SEMICOLON            &trans                 &trans     &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11
-&kp LS(INT_YEN)  &kp UNDERSCORE  &kp LS(NUMBER_6)  &kp COMMA    &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES      &trans     &trans                                                                 &kp F12
+&kp F1           &kp F2        &kp F3            &kp F4      &kp F5                                                     &kp F6         &kp F7                &kp F8             &kp F9         &kp F10
+&kp EXCLAMATION  &kp QUESTION  &kp DOLLAR        &kp AT      &kp AMPS                 &trans                 &kp LANG9  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RBRC           &kp PIPE       &kp LEFT_BRACKET
+&kp INT_YEN      &kp PERCENT   &kp HASH          &kp PERIOD  &kp SEMICOLON            &trans                 &trans     &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11
+&kp LS(INT_YEN)  &kp UNDER     &kp LS(NUMBER_6)  &kp COMMA   &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES      &trans     &trans                                                                 &kp F12
             >;
         };
 
         NUM {
             bindings = <
-&kp ESCAPE    &kp N7        &kp N8        &kp N9        &kp EQUAL                                                   &kp N7        &kp N8        &kp N9        &kp SLASH   &kp ASTERISK
-&kp TAB       &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp SQT        &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp MINUS
-&kp SLASH     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LCTRL)  &kp EQUAL                    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &kp EQUAL
-&kp ASTERISK  &kp N0        &kp PERIOD    &kp MINUS     &kp SPACE      &kp ENTER                    &trans          &trans                                                &kp LS(LCTRL)
+&kp ESCAPE  &kp N7        &kp N8        &kp N9        &kp UNDER                                              &kp N7        &kp N8        &kp N9        &kp SLASH   &kp DQT
+&kp TAB     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp AMPERSAND  &kp LC(LA(KP_NUMBER_0))      &kp UNDER  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PERIOD  &kp MINUS
+&kp SLASH   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp COLON      &kp EQUAL                    &trans     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp N0      &kp EQUAL
+&kp DQT     &kp N0        &kp PERIOD    &kp MINUS     &kp SPACE      &kp ENTER                    &trans     &trans                                                &kp COLON
             >;
         };
 
