@@ -1,46 +1,46 @@
 layout: {zmk_keyboard: roBa}
 layers:
   default:
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - {t: I, h: SCROLL}
+  - {t: Q, h: SCROLL}
+  - {t: W, h: '`'}
+  - {t: E, h: ALLOW-FUNC}
+  - {t: R, h: NUM}
+  - {t: T, h: FUNCTION}
+  - {t: Y, h: FUNCTION}
+  - {t: U, h: NUM}
+  - {t: I, h: ALLOW-FUNC}
   - O
   - P
-  - A
-  - S
-  - {t: '&to_layer_0 D', h: ARROW}
-  - {t: '&to_layer_0 F', h: NUM}
-  - {t: '&to_layer_0 G', h: FUNCTION}
+  - {t: A, h: SCROLL}
+  - {t: S, h: LSHFT}
+  - {t: D, h: ALLOW-FUNC}
+  - {t: F, h: NUM}
+  - {t: G, h: FUNCTION}
   - Sft+Gui+S
   - '-'
-  - H
-  - J
-  - K
+  - {t: H, h: FUNCTION}
+  - {t: J, h: NUM}
+  - {t: K, h: ALLOW-FUNC}
   - L
   - PAGE UP
   - {t: Z, h: LEFT SHIFT}
-  - X
-  - {t: '&to_layer_0 C', h: ARROW}
-  - {t: '&to_layer_0 G', h: ARROW}
-  - {t: '&to_layer_0 B', h: FUNCTION}
-  - ':'
+  - {t: X, h: LSHFT}
+  - {t: C, h: ALLOW-FUNC}
+  - {t: V, h: NUM}
+  - {t: B, h: FUNCTION}
+  - '&psw_kihon'
   - ;
-  - N
-  - M
+  - {t: N, h: FUNCTION}
+  - {t: M, h: NUM}
   - '&mkp MB1'
   - '&mkp MB2'
   - '&mkp MB3'
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - {t: '6', h: toggle}
+  - {t: ALLOW-FUNC, h: toggle}
   - {t: SPACE, h: NUM}
-  - {t: '&to_layer_0 ENTER', h: ARROW}
+  - {t: ENTER, h: ALLOW-FUNC}
   - BACKSPACE
   - {t: DELETE, h: FUNCTION}
   - PAGE DOWN
@@ -49,7 +49,7 @@ layers:
   - F2
   - F3
   - F4
-  - F5
+  - {t: F5, type: held}
   - F6
   - F7
   - F8
@@ -58,16 +58,16 @@ layers:
   - '!'
   - '?'
   - $
-  - '"'
-  - {t: '''', type: held}
-  - {t: ▽, type: trans}
-  - F13
-  - (
-  - )
-  - '{'
-  - '}'
   - '@'
-  - \
+  - '&'
+  - {t: ▽, type: trans}
+  - LANG9
+  - '*'
+  - (
+  - '}'
+  - '|'
+  - '['
+  - INT YEN
   - '%'
   - '#'
   - .
@@ -76,15 +76,15 @@ layers:
   - {t: ▽, type: trans}
   - <
   - '>'
-  - '['
   - ']'
+  - \
   - F11
-  - '|'
-  - '='
-  - '&'
-  - ','
+  - Sft+INT YEN
   - _
-  - '*'
+  - Sft+6
+  - ','
+  - Sft+INTERNATIONAL 1
+  - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F12
@@ -92,18 +92,18 @@ layers:
   - ESCAPE
   - '7'
   - '8'
-  - '9'
-  - '='
+  - {t: '9', type: held}
+  - _
   - '7'
   - '8'
   - '9'
   - /
-  - '*'
+  - '"'
   - TAB
   - '4'
   - '5'
-  - {t: '6', type: held}
-  - ''''
+  - '6'
+  - '&'
   - Ctl+Alt+KP 0
   - _
   - '4'
@@ -111,11 +111,11 @@ layers:
   - '6'
   - .
   - '-'
-  - {t: /, h: LEFT SHIFT}
+  - /
   - '1'
   - '2'
   - '3'
-  - +
+  - ':'
   - '='
   - {t: ▽, type: trans}
   - '1'
@@ -123,7 +123,7 @@ layers:
   - '3'
   - '0'
   - '='
-  - {t: ▽, type: trans}
+  - '"'
   - '0'
   - .
   - '-'
@@ -131,51 +131,51 @@ layers:
   - ENTER
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - +
-  ARROW:
+  - ':'
+  ALLOW-FUNC:
   - ESCAPE
-  - Ctl+Sft+TAB
-  - UP ARROW
+  - '`'
+  - {t: '&PSW_OKUWA', type: held}
   - Ctl+TAB
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ALT
+  - '-'
+  - INSERT
   - HOME
-  - LEFT ARROW
-  - {t: DOWN ARROW, type: held}
-  - RIGHT ARROW
+  - PRINTSCREEN
   - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - TAB
+  - Gui+Sft+S
+  - PREV
+  - FORWARD
   - LEFT SHIFT
-  - Gui+Sft+LEFT ARROW
-  - {t: ▽, type: trans}
-  - Gui+Sft+RIGHT ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - ','
+  - ;
+  - PAGE UP
+  - UP ARROW
+  - PAGE DOWN
+  - CAPSLOCK
+  - CUT
+  - COPY
+  - PASTE
+  - LEFT CONTROL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - .
+  - ','
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - LEFT CONTROL
+  - LEFT SHIFT
+  - LEFT ALT
+  - {t: default, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+A
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -198,7 +198,7 @@ layers:
   - '&mkp MB1'
   - '&mkp MB3'
   - '&mkp MB2'
-  - {t: ▽, type: trans}
+  - '&mkp MB4'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -219,16 +219,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB5'
   SCROLL:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -319,3 +319,9 @@ combos:
   k: '"'
 - p: [24, 25]
   k: '='
+- p: [1, 2]
+  k: '`'
+- p: [0, 1]
+  k: ESCAPE
+- p: [22, 23]
+  k: CAPSLOCK
