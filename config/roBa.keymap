@@ -93,7 +93,7 @@
         default_layer {
             bindings = <
 &lt 5 Q           &mt GRAVE W   &lt 3 E       &lt 2 R  &lt 1 T                                        &lt 1 Y       &lt 2 U  &lt 3 I   &kp O     &kp P
-&lt 5 A           &mt LSHFT S   &lt 3 D       &lt 2 F  &lt 1 G      &kp LS(LG(S))      &kp MINUS      &lt 1 H       &lt 2 J  &lt 3 K   &kp L     &kp PAGE_UP
+&lt 5 A           &mt LSHFT S   &lt 3 D       &lt 2 F  &lt 1 G      &kp LS(LG(S))      &lt 5 PERIOD   &lt 1 H       &lt 2 J  &lt 3 K   &kp L     &kp PAGE_UP
 &mt LEFT_SHIFT Z  &mt LSHFT X   &lt 3 C       &lt 2 V  &lt 1 B      &psw_kihon         &kp SEMICOLON  &lt 1 N       &lt 2 M  &mkp MB1  &mkp MB2  &mkp MB3
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &to 3    &lt 2 SPACE  &lt 3 ENTER        &kp BACKSPACE  &lt 1 DELETE                               &kp PAGE_DOWN
             >;
@@ -105,7 +105,7 @@
             bindings = <
 &kp F1           &kp F2        &kp F3            &kp F4      &kp F5                                                     &kp F6         &kp F7                &kp F8             &kp F9         &kp F10
 &kp EXCLAMATION  &kp QUESTION  &kp DOLLAR        &kp AT      &kp AMPS                 &trans                 &kp LANG9  &kp ASTERISK   &kp LEFT_PARENTHESIS  &kp RBRC           &kp PIPE       &kp LEFT_BRACKET
-&kp INT_YEN      &kp PERCENT   &kp HASH          &kp PERIOD  &kp A                    &trans                 &trans     &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11
+&kp INT_YEN      &kp PERCENT   &kp HASH          &kp PERIOD  &kp SEMICOLON            &trans                 &trans     &kp LESS_THAN  &kp GREATER_THAN      &kp RIGHT_BRACKET  &kp BACKSLASH  &kp F11
 &kp LS(INT_YEN)  &kp UNDER     &kp LS(NUMBER_6)  &kp COMMA   &kp LS(INTERNATIONAL_1)  &kp DOUBLE_QUOTES      &trans     &trans                                                                 &kp F12
             >;
         };
