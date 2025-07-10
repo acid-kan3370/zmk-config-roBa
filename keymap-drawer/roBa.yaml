@@ -17,7 +17,7 @@ layers:
   - {t: F, h: NUM}
   - {t: G, h: FUNCTION}
   - Sft+Gui+S
-  - '-'
+  - {t: ., h: SCROLL}
   - {t: H, h: FUNCTION}
   - {t: J, h: NUM}
   - {t: K, h: ALLOW-FUNC}
@@ -29,7 +29,7 @@ layers:
   - {t: V, h: NUM}
   - {t: B, h: FUNCTION}
   - '&psw_kihon'
-  - ;
+  - {t: ;, h: '6'}
   - {t: N, h: FUNCTION}
   - {t: M, h: NUM}
   - '&mkp MB1'
@@ -155,7 +155,7 @@ layers:
   - PAGE UP
   - UP ARROW
   - PAGE DOWN
-  - CAPSLOCK
+  - Sft+CAPSLOCK
   - CUT
   - COPY
   - PASTE
@@ -293,7 +293,7 @@ layers:
   - '3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&bootloader'
+  - {t: '&bootloader', type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
