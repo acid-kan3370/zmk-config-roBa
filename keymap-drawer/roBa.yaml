@@ -39,10 +39,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - {t: ALLOW-FUNC, h: toggle}
-  - {t: SPACE, h: NUM}
+  - SPACE
   - {t: ENTER, h: ALLOW-FUNC}
   - BACKSPACE
-  - {t: DELETE, h: FUNCTION}
+  - DELETE
   - PAGE DOWN
   FUNCTION:
   - F1
