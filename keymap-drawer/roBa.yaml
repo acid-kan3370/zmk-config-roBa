@@ -12,7 +12,7 @@ layers:
   - O
   - {t: P, h: SCROLL}
   - {t: A, h: LEFT SHIFT}
-  - {t: LEFT SHIFT, h: S}
+  - {t: S, h: LEFT SHIFT}
   - {t: D, h: ARROW}
   - {t: F, h: NUM}
   - {t: G, h: FUNCTION}
@@ -24,7 +24,7 @@ layers:
   - L
   - '&mkp MB4'
   - {t: Z, h: LEFT SHIFT}
-  - {t: LEFT SHIFT, h: X}
+  - {t: X, h: LEFT SHIFT}
   - {t: C, h: ARROW}
   - {t: V, h: NUM}
   - {t: B, h: FUNCTION}
@@ -40,7 +40,7 @@ layers:
   - LEFT ALT
   - {t: ARROW, h: toggle}
   - SPACE
-  - ENTER
+  - {t: ENTER, h: ARROW}
   - BACKSPACE
   - DELETE
   - '&mkp MB5'
@@ -81,7 +81,7 @@ layers:
   - F11
   - Sft+INT3
   - _
-  - {t: ▽, type: trans}
+  - ^
   - ','
   - Sft+INTERNATIONAL 1
   - '"'
@@ -135,9 +135,9 @@ layers:
   ARROW:
   - ESCAPE
   - '`'
-  - {type: held}
+  - {t: '&macro', type: held}
   - Ctl+R
-  - {t: ▽, type: trans}
+  - LEFT ALT
   - '-'
   - INS
   - HOME
@@ -147,7 +147,7 @@ layers:
   - Gui+Ctl+S
   - Ctl+Z
   - Ctl+Y
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ','
@@ -159,7 +159,7 @@ layers:
   - Sft+X
   - Sft+C
   - Sft+V
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - .
