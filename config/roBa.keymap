@@ -10,9 +10,7 @@
 
 &trackball {
     //    automouse-layer = <4>;
-
     //    scroll-layers = <5>;
-
     // arrows {
     //     layers = <3>;
     //     bindings =
@@ -93,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp ESC                     &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &kp DOUBLE_QUOTES
-&kp TAB                     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AMPERSAND  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp MINUS
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON      &kp EQUAL                    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp EQUAL
-&kp DOUBLE_QUOTES           &kp KP_NUMBER_0  &kp DOT          &kp MINUS        &kp SPACE      &kp ENTER                    &trans          &trans                                                  &kp COLON
+&kp ESC            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                                                   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp SLASH     &kp DOUBLE_QUOTES
+&kp TAB            &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp AMPERSAND  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &kp MINUS
+&kp SLASH          &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON      &kp EQUAL                    &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0  &kp EQUAL
+&kp DOUBLE_QUOTES  &kp KP_NUMBER_0  &kp DOT          &kp MINUS        &kp SPACE      &kp ENTER                    &trans          &trans                                                  &kp COLON
             >;
         };
 
