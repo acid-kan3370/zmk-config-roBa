@@ -111,7 +111,7 @@ layers:
   - '6'
   - .
   - '-'
-  - {t: KP 0, h: LEFT SHIFT}
+  - /
   - KP 1
   - KP 2
   - KP 3
@@ -313,7 +313,3 @@ combos:
   k: TAB
 - p: [12, 13]
   k: Sft+TAB
-- p: [20, 21]
-  k: '"'
-- p: [24, 25]
-  k: '='
