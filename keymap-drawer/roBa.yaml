@@ -32,8 +32,8 @@ layers:
   - {t: ;, h: '6'}
   - {t: N, h: FUNCTION}
   - {t: M, h: NUM}
-  - {t: '&mkp MB1', h: ARROW}
-  - '&mkp MB2'
+  - '&mkp MB1'
+  - {t: '&mkp MB2', h: SCROLL}
   - '&mkp MB3'
   - LCTRL
   - LEFT WIN
