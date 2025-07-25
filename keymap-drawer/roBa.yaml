@@ -32,7 +32,7 @@ layers:
   - {t: ;, h: '6'}
   - {t: N, h: FUNCTION}
   - {t: M, h: NUM}
-  - '&mkp MB1'
+  - {t: '&mkp MB1', h: ARROW}
   - '&mkp MB2'
   - '&mkp MB3'
   - LCTRL
@@ -93,7 +93,7 @@ layers:
   - KP 7
   - KP 8
   - {t: KP 9, type: held}
-  - '-'
+  - _
   - '7'
   - '8'
   - '9'
