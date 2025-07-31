@@ -28,8 +28,8 @@ layers:
   - {t: C, h: ARROW}
   - {t: V, h: NUM}
   - {t: B, h: FUNCTION}
-  - {t: ':', h: '6'}
-  - {t: ;, h: '6'}
+  - {t: ',', h: '6'}
+  - {t: ., h: '6'}
   - {t: N, h: FUNCTION}
   - {t: M, h: NUM}
   - '&mkp MB1'
@@ -116,7 +116,7 @@ layers:
   - KP 2
   - KP 3
   - ':'
-  - '='
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -135,7 +135,7 @@ layers:
   ARROW:
   - ESCAPE
   - '`'
-  - {t: '&macro', type: held}
+  - {type: held}
   - Ctl+R
   - LEFT ALT
   - '-'
